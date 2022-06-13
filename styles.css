@@ -1,0 +1,106 @@
+.list-group{
+    margin-left: 5px;
+    width:20%;
+    height:100%;
+    background-color:green;
+    float:left;
+}
+.list-group-item {
+    margin:21px 21px 21px 15px;
+    background-color: aqua;
+    color: aqua;
+    padding-left:5px;
+    text-align: center;
+    
+}
+.list-group-item:visited{
+    background-color:antiquewhite;
+}
+.navbar{
+    float:left;
+    width:79%;
+    text-decoration: double;
+    color:blue;
+}
+.nav-link{
+  padding-left: 10px;
+  text-decoration: double;
+  color:blue;
+}
+
+.btn{
+    margin-left:25px;
+    margin-top:20px;
+    text-decoration: double;
+    text-shadow: 2px;
+    border-radius: 2px;
+    background-color: green;
+    float:left;
+    
+}
+
+.input{
+    margin-left:5px;
+    margin-top:25px;
+    margin-right:50px;
+    float:right;
+    
+}
+    
+.content{
+    padding-left: 280px;
+    font-size: 20px;
+    background-color: aliceblue;
+    margin-left:30px;
+}
+p{
+    font-size: small;
+    padding-left:15px;
+}
+.dates{
+  background-color:white;
+    padding-left:5px;
+    padding-top:5px;
+    margin-left:300px;
+}
+.date{
+    opacity:0.5;
+    float:left;
+}
+.date1{
+    opacity: 0.5;
+    float:right;
+    margin-right:700px;
+}
+.ok{
+    margin-left:180px;
+}
+.day{
+    margin-left:15px;
+    padding: 2 3 4 5;
+}
+.day1{
+    margin-left:50px;
+}
+.day1,.day{
+    background-color: rgb(95, 161, 95);
+    font-size: large;
+    border-radius: 5px;
+    
+}
+.day1:hover,.day:hover{
+    background-color: aqua;
+}
+.t1{
+    margin-top:10px;
+    padding-left:340px;
+    background-color: aliceblue;
+    padding-bottom:2px;
+    padding-top:5px;
+
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
